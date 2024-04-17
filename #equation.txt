@@ -1,0 +1,35 @@
+#equation
+
+\documentclass{article}
+\begin{document}
+	\section{First Equation}
+	$(\Gamma_5\nabla^2 - 2\Gamma_3)\Phi+ \Gamma_6\nabla\nabla\phi+\Gamma_3\nabla\mu = 
+	\tau_\tau(1-\epsilon^2\delta^2)\phi\ddot{}$ \\
+	\section{Second Equation}
+	
+	$(\Gamma_8\nabla^2 - \Gamma_9)\phi-\Gamma_10 \nabla\mu +\epsilon_11 \gamma =
+	(1-\epsilon^2\nabla^2)\phi\ddot{}$
+	
+\end{document}
+
+ #table
+
+
+documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[table]{xcolor}
+\setlength{\arrayrulewidth}{0mm}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{2.5}
+\begin{document}
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+Vegetables\cellcolor[HTML]{AAACED} & Cucumber\cellcolor{orange} & 8\cellcolor{purple} & 6\cellcolor{purple} \\
+Vegetables\cellcolor[HTML]{AAACED} & Tomatoes\cellcolor{blue} & 12\cellcolor{pink} & 10\cellcolor{purple} \\
+Vegetables\cellcolor[HTML]{AAACED} & Lettuce\cellcolor{green} & 20\cellcolor{white} & 19\cellcolor{orange} \\
+Fruit\cellcolor{pink} & Apples\cellcolor{green} & 9\cellcolor{purple} & 10\cellcolor{pink} \\
+Fruit\cellcolor{pink} & Pears\cellcolor{orange} & 19\cellcolor{white} & 13\cellcolor{pink} \\
+Fruit\cellcolor{pink} & Bananas\cellcolor{yellow} & 32\cellcolor{teal} & 13\cellcolor{violet}\\
+\hline
+\end{tabular}
+\end{document}
